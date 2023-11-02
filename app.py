@@ -1,9 +1,11 @@
 from flask import Flask
+from census.logger import logging
 
 app = Flask(__name__)
 
 @app.route("/",methods = ["GET","POST"])
 def home():
+    logging.info('Hello')
     return "Hii There"
 
 if __name__=="__main__":
