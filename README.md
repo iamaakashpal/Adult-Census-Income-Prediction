@@ -9,7 +9,7 @@
     ├── venv
     ├── requirements.txt
     ├── app.py
-    ├── Docker
+    ├── Dockerfile
     ├── .dockerignore
     ├── .github/workflow
             ├── main.yaml  (Deployment related code i.e. heruko, aws and azure)
